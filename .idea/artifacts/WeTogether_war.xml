@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WeTogether:war">
+    <output-path>$PROJECT_DIR$/../WeTogether/target</output-path>
+    <root id="archive" name="WE.war">
+      <element id="artifact" artifact-name="WeTogether:war exploded" />
+    </root>
+  </artifact>
+</component>

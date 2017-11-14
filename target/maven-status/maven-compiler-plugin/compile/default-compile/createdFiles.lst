@@ -1,0 +1,12 @@
+com\we\service\UserService.class
+com\we\test\TongdaWebserviceUtil.class
+com\we\test\PICCClientInterceptor.class
+com\we\controller\UserController.class
+com\we\test\Student.class
+com\we\entity\user\UserEntity.class
+com\we\entity\BaseEntity.class
+com\we\dao\UserDAO.class
+com\we\test\ServiceTest.class
+com\we\test\TestWebService.class
+com\we\test\RestPasswordParam.class
+com\we\entity\user\param\UserCreateParam.class
