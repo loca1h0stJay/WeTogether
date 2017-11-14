@@ -1,6 +1,9 @@
+/target/
+*.iml
+.idea
 
-.idea/vcs.xml
-.idea/workspace.xml
-.idea/workspace.xml
-.idea/workspace.xml
-.idea/workspace.xml
+#Eclipse 相关
+.classpath
+.project
+.settings/
+src/test/java/com/jingantech/ngiam/test/saml/2.xml
