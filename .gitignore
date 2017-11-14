@@ -7,3 +7,4 @@
 .project
 .settings/
 src/test/java/com/jingantech/ngiam/test/saml/2.xml
+.idea/workspace.xml
