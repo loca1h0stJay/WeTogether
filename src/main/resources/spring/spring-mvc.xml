@@ -11,6 +11,7 @@
         <property name="locations">
             <list>
                 <value>classpath:config/config.properties</value>
+                
             </list>
         </property>
         <property name="fileEncoding" value="utf-8"></property>
