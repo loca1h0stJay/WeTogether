@@ -25,7 +25,7 @@
                        WriteConcern.REPLICAS_SAFE:抛出网络错误异常、服务器错误异常；等待至少2台服务器完成写操作。-->
 
     <mongo:db-factory id="mongoDbFactory"
-                      dbname="ocean"
+                      dbname="we-db"
                       mongo-ref="mongo"
                       write-concern="ACKNOWLEDGED"
                       />
