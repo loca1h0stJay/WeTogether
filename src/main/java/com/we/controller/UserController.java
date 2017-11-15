@@ -10,9 +10,19 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
     @Autowired
     UserService userService;
+
+
+
     @RequestMapping(value="/create",method = RequestMethod.POST)
     public String CreateUser(UserCreateParam param){
         return userService.createUser(param);
+    }
+
+
+    @RequestMapping(value="/sync",method = RequestMethod.POST)
+    public String syncUser(String json){
+
+        return "";
     }
 
 }

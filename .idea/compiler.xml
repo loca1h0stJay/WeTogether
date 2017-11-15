@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="WE" />
         <module name="WeTogether" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="WE" target="1.5" />
       <module name="WeTogether" target="1.5" />
     </bytecodeTargetLevel>
   </component>
