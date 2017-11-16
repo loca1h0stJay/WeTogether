@@ -20,9 +20,9 @@ public class UserController {
 
 
     @RequestMapping(value="/sync",method = RequestMethod.POST)
-    public String syncUser(String json){
-
-        return "";
+    public String syncUser(@RequestBody String json){
+        System.out.println("接收参数："+json);
+        return "success";
     }
 
 }
